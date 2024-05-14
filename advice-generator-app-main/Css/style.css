@@ -1,0 +1,63 @@
+:root {
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+}
+
+body {
+    font-family: 'Manrope';
+    background-color: var(--DarkBlue);
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    background-color: var(--DarkGrayishBlue);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.advice {
+    color: var(--NeonGreen);
+    font-weight: bolder;
+    font-size: 12px;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
+.advice__container{
+    text-align: center; 
+}
+
+.text__container {
+    color: var(--LightCyan);
+    font-weight: bolder;
+    font-size: 18px;
+    font-size: 28px;
+}
+.divider{
+    margin-bottom: 25px;
+}
+
+.icon_dice_container {
+    position: relative;
+    background-color: var(--NeonGreen);
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    top: -29px;
+}
+
+
+/* Desktop */
+@media (min-width: 1300px){
+    .container{
+        width: 30%;
+    }
+
+}
